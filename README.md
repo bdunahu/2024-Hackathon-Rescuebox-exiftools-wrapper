@@ -6,5 +6,8 @@ It is particularly effective for investigatiors of crimes against children if th
 
 The other metadata that can be extracted seems like a useful input for a neural network---a network could possibly learn patterns in the metadata (image brightness, exposure time, etc) and determine if the images were taken in the same place, even in the absence of location data.
 
+## Files
+
 extract.sh --- a neat wrapper for exiftools with extra output
+
 extract.py --- eventual multithreading approach
