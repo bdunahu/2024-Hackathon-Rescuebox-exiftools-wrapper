@@ -4,4 +4,7 @@ exiftools allows extraction of tens of different types of metadata recorded by m
 
 It is particularly effective for investigatiors of crimes against children if the GPS data on the user's phone is turned on---we can easily extract the GPS coordinates of where each photo was taken.
 
-The other metadata that can be supplied seems like a useful input for a neural network---a network could possibly learn patterns in the metadata (image brightness, exposure time, etc) and determine if the images were taken in the same place, even in the absence of location data.
+The other metadata that can be extracted seems like a useful input for a neural network---a network could possibly learn patterns in the metadata (image brightness, exposure time, etc) and determine if the images were taken in the same place, even in the absence of location data.
+
+extract.sh --- a neat wrapper for exiftools with extra output
+extract.py --- eventual multithreading approach
